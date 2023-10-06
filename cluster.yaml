@@ -5,19 +5,19 @@ metadata:
   region: us-east-1
 
 vpc:
-  id: vpc-03a57362c6c6d557a
+  id: vpc-061f964f8c639af46
   cidr: "192.168.0.0/16"
   subnets:
     public:
       us-east-1a:
-        id: subnet-03c3c3a1d66fc2d22
+        id: subnet-0cdd3a8c64b8fd371
       us-east-1b:
-        id: subnet-0baae2a887de45baa
+        id: subnet-00e9343c95337065c
     private:
       us-east-1a:
-        id: subnet-0c729d514d8a3b07c
+        id: subnet-0e3d3577e46dfd2ae
       us-east-1b:
-        id: subnet-026bc259ceb599be5
+        id: subnet-0c46e4a31eeeaef2b
 
 nodeGroups:
   - name: EKS-public-workers
