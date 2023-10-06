@@ -9,15 +9,15 @@ vpc:
   cidr: "192.168.0.0/16"
   subnets:
     public:
-      us-east-1a:
-        id: subnet-0cdd3a8c64b8fd371
-      us-east-1b:
-        id: subnet-00e9343c95337065c
+      ap-south-1a:
+        id: 	subnet-0bc2ce0da616bb62d
+      us-south-1b:
+        id: subnet-0233b98fd69c5f1c5
     private:
-      us-east-1a:
-        id: subnet-0e3d3577e46dfd2ae
-      us-east-1b:
-        id: subnet-0c46e4a31eeeaef2b
+      us-south-1a:
+        id: subnet-0822ec4bbce071321
+      us-south-1b:
+        id: 	subnet-0b272f2723293b368
 
 nodeGroups:
   - name: EKS-public-workers
