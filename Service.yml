@@ -6,9 +6,9 @@ metadata:
     app: reddit-clone
 spec:
   type: NodePort
+  ports:
+  - port: 3000
+    targetPort: 3000
+    nodePort: 31000
   selector:
     app: reddit-clone
-  ports:
-    - nodePort: 31479
-      port: 8080
-      targetPort: 3000
