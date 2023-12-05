@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: reddit-clone
-        image: public.ecr.aws/o0s5r7f7/eks-repo:latest
+        image: public.ecr.aws/p1h9l6n9/bennett:latest
         ports:
         - containerPort: 3000
